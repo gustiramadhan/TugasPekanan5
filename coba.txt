@@ -1,0 +1,18 @@
+// describe('Login', () => {
+//     it('Successful Login', () => {
+//         cy.visit('https://kasirdemo.belajarqa.com/login')
+//         cy.get('#email').type('gustiramadhan57@gmail.com')
+//         cy.get('#password').type('123456789')
+//         cy.get('#submit').click()
+//         cy.url().should('include', '/')
+//         cy.contains('Welcome to Kasir')
+//     })
+
+//     it('Incorrect Login Credentials', () => {
+//         cy.visit('https://kasirdemo.belajarqa.com/login')
+//         cy.get('#username').type('kasir123')
+//         cy.get('#password').type('kasir123')
+//         cy.get('#signIn').click()
+//         cy.contains('Username or password is incorrect')
+//     })
+// })

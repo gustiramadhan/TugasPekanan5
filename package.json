@@ -1,0 +1,22 @@
+{
+  "name": "tugaspekanan5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2addCategories.cy.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustiramadhan/TugasPekanan5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustiramadhan/TugasPekanan5/issues"
+  },
+  "homepage": "https://github.com/gustiramadhan/TugasPekanan5#readme",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
