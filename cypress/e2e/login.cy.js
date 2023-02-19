@@ -18,12 +18,11 @@ describe('Kasir Aja', () => {
         cy.contains('Kredensial yang Anda berikan salah')
     })
 
-    it('Failed to login with wrong email', () => {
+    it('Failed to login due to not filling in the password field', () => {
         cy.visit('https://kasirdemo.belajarqa.com')
         cy.url().should('include', '/login') 
-        cy.get('#email').type('gustiramadhan77@gmail.com')
-        cy.get('#password').type('123456789')
+        cy.get('#email').type('gustiramadhan57@gmail.com')
         cy.get('#root > div > div > div > div.css-1w7v3tn > div > button').click()
-        cy.contains('Kredensial yang Anda berikan salah')
+        cy.contains('"password" is not allowed to be empty')
     })
 })
